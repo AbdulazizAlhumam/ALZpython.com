@@ -1,0 +1,31 @@
+.homeL{
+    font: bold 18px Arial;
+    text-decoration: none;
+    background-color: #04b36f;
+    color: #c7f3e8;
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    padding-top: 100%;
+    background-image: url("../imges/home.jpeg");
+    background-size: 75px;
+  }
+  .pythonL{
+    font: bold 18px Arial;
+    text-decoration: none;
+    color: #195cd8;
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    padding-top: 100%;
+    background-image: url("../imges/python2.jpeg");
+    background-size: 86.5px;
+  }
+  .CL{
+    font: bold 18px Arial;
+    text-decoration: none;
+    color: #195cd8;
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    padding-top: 100%;
+    background-image: url("../imges/C.jpeg");
+    background-size: 52px;
+  }
