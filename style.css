@@ -14,11 +14,15 @@ body{
   
 }
 .topbar{
-  background: rgba(190, 190, 190, 0.514);
+  background: rgba(255, 255, 255, 0.877);
   width: 100%;
-  padding-top: 3px; 
   position: absolute top;
-  margin-bottom: 3px;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+  height: 25px;
+  border-radius: 2px;
+
 
 }
 .logo{
@@ -35,7 +39,7 @@ body{
   transition:  transform 1s;
 }
 .topbarL:hover{
-  color: white;
+  color: rgb(68, 68, 68);
 }
 .topdiv{
   width: fill;
@@ -45,7 +49,7 @@ body{
   background: grey;
   text-align: center;
   display: block;
-  margin-top: 10px;
+  margin-top: 30px;
   border-radius: 4px;
   position: absolute top;
   border: solid black 1px;
@@ -114,6 +118,47 @@ body{
   background: darkgray;
   font-size: 20px;
 }
-.midleDiv{
-	color: blue;
+.midBtw{
+  text-align: center;
+  color: dimgray;
+}
+.midleDivL{
+  margin-top: 4%;
+  background: silver;
+  padding-bottom: 200px;
+  border-radius: 8px;
+  border: solid 1px gray;
+
+}
+.midleDivR{
+  margin-top: 4%;
+  background: silver;
+  padding-bottom: 200px;
+  border-radius: 8px;
+  border: solid 1px gray;
+
+}
+.middleDivtextL{
+  margin-left: 10px;
+}
+.middleDivtextR{
+  margin-right: 10px;
+}
+.middleDivH1{
+  color: gray;
+}
+.middleDivP{
+  color: black;
+}
+.enddiv{
+  margin-top: 10%;
+  width: 100%;
+  height: 80px;
+  background: darkgray;
+  margin-bottom: 20px;
+}
+.enddivText{
+  padding-top: 10px;
+  font-size: 11px;
+  text-align: center;
 }
