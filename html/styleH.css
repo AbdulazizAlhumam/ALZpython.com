@@ -89,7 +89,7 @@ body{
   width: 25%;
   padding: 25px;
   height: 85%;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: auto 0;
   border: solid black 1px;
   background: silver;
@@ -103,7 +103,7 @@ body{
   text-align: center;
   display:inline-block;
   width: fill;
-  height: 300px;:wq
+  height: 300px;
   padding: 8px;
   width: 25%;
   padding: 25px;
