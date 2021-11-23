@@ -18,12 +18,9 @@ body{
   width: 100%;
   position: absolute top;
   top: 0;
-  position: fixed;
   overflow: hidden;
   height: 25px;
   border-radius: 2px;
-
-
 }
 .logo{
   height: 18px;
@@ -72,8 +69,10 @@ body{
   height: 85%;
   display:inline-block;
   border-radius: 10px;
-  border: solid black 1px;
+  border: solid black 2px;
   background: silver;
+  border-left: solid rgb(26, 26, 26) 6px;
+  border-bottom: solid rgb(26, 25, 25) 6px;
   transition:  transform 1s;
 }
 .topdiv2:hover{
@@ -82,17 +81,18 @@ body{
 }
 .topdiv3{
   text-align: center;
-  display:inline-block;
   width: fill;
   height: 300px;
-  padding: 8px;
+  margin-top: 16px;
   width: 25%;
   padding: 25px;
   height: 85%;
+  display:inline-block;
   border-radius: 10px;
-  margin: auto 0;
-  border: solid black 1px;
+  border: solid black 2px;
   background: silver;
+  border-left: solid rgb(26, 26, 26) 6px;
+  border-bottom: solid rgb(26, 25, 25) 6px;
   transition:  transform 1s;
 }
 .topdiv3:hover{
@@ -101,17 +101,18 @@ body{
 }
 .topdiv4{
   text-align: center;
-  display:inline-block;
   width: fill;
   height: 300px;
-  padding: 8px;
+  margin-top: 16px;
   width: 25%;
   padding: 25px;
   height: 85%;
+  display:inline-block;
   border-radius: 10px;
-  margin: auto 0;
-  border: solid black 1px;
+  border: solid black 2px;
   background: silver;
+  border-left: solid rgb(59, 59, 59) 6px;
+  border-bottom: solid rgb(59, 59, 59) 6px;
   transition:  transform 1s;
 }
 .topdiv4:hover{
