@@ -18,12 +18,13 @@ body{
   width: 100%;
   position: absolute top;
   top: 0;
+  left: 0;
+  right: 0;
   position: fixed;
   overflow: hidden;
   height: 25px;
   border-radius: 2px;
-
-
+  z-index: 1;
 }
 .logo{
   height: 18px;

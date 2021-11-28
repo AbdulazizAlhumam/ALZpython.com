@@ -18,10 +18,13 @@ body{
   width: 100%;
   position: absolute top;
   top: 0;
+  left: 0;
+  right: 0;
   position: fixed;
   overflow: hidden;
   height: 25px;
   border-radius: 2px;
+  z-index: 1;
 }
 .logo{
   height: 18px;
@@ -83,6 +86,7 @@ body{
   display:inline-block;
   width: fill;
   height: 300px;
+  padding: 8px;
   width: 25%;
   padding: 25px;
   height: 85%;
