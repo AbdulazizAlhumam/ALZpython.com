@@ -2,10 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  background-color:rgb(209, 209, 211);
+  background-color:rgb(255, 255, 255);
   animation: transitionIn 1s;
+  transition: ease-in-out 1s;
 }
-@keyframes transitionIn {
+@keyframes transitionIn{
   from {
     opacity: 0;
     transform: translateY(-10deg);
@@ -17,128 +18,104 @@ body{
   
 }
 .topbar{
-  background: rgba(255, 255, 255, 0.877);
   width: 100%;
-  position: absolute top;
-  top: 0;
-  left: 0;
-  right: 0;
+  background: rgb(255, 0, 85);
+  height: 25px;
+  border-radius: 1px;
   position: fixed;
   overflow: hidden;
-  height: 25px;
-  border-radius: 2px;
+  top: 0;
+  left: 0;
+  right:x 0;
   z-index: 1;
 }
 .logo{
   height: 18px;
   width: 80px;
-  margin-left: 3px;
+  margin-left: 7px;
 }
 .topbarL{
   font: bold 18px tahoma;
   text-decoration: none;
-  color: #81848a;
+  color: rgb(255, 255, 255);
   padding: 4px 12px 4px 12px;
   border-radius: 5px;
   transition:  transform 1s;
 }
 .topbarL:hover{
-  color: rgb(68, 68, 68);
+  color: rgb(255, 115, 115);
 }
 .topdiv{
-  width: fill;
-  height: 300px;
-  margin-top: 16px;
+  width: 100%;
+  height: 770px;
   padding: 8px;
-  background: grey;
+  background-image: url("../imges/python3.jpeg");
+  background-size: cover;
   text-align: center;
-  display: block;
-  margin-top: 30px;
-  border-radius: 4px;
-  position: absolute top;
-  border: solid black 1px;
+  display: block flex;
+  position: absolute;
+  border: solid rgba(100, 100, 100, 0.192) 4px;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 .topdivL{
   text-decoration: none;
   color: black;
 }
 .toph1{
+  margin-top: 13%;
   text-align: center;
   font-size: 40px;
 }
-.topdiv2{
+
+.topdivL{
+  font-size: 24px;
+  width: 30%;
+  padding: 6px;
   text-align: center;
-  width: fill;
-  height: 300px;
-  margin-top: 16px;
-  width: 25%;
-  padding: 25px;
-  height: 85%;
   display:inline-block;
-  border-radius: 10px;
-  border: solid black 1px;
-  background: silver;
-  transition:  transform 1s;
+  color: rgb(70, 107, 138);
+  background:rgb(252, 36, 90);
+  border-radius: 4px;
+  transition:  ease-in-out 0.2s;
 }
-.topdiv2:hover{
-  background: darkgray;
-  font-size: 20px;
-}
-.topdiv3{
-  text-align: center;
-  width: fill;
-  height: 300px;
-  margin-top: 16px;
-  width: 25%;
-  padding: 25px;
-  height: 85%;
-  display:inline-block;
-  border-radius: 10px;
-  border: solid black 1px;
-  background: silver;
-  transition:  transform 1s;
-}
-.topdiv3:hover{
-  background: darkgray;
-  font-size: 20px;
-}
-.topdiv4{
-  text-align: center;
-  width: fill;
-  height: 300px;
-  margin-top: 16px;
-  width: 25%;
-  padding: 25px;
-  height: 85%;
-  display:inline-block;
-  border-radius: 10px;
-  border: solid black 1px;
-  background: silver;
-  transition:  transform 1s;
-}
-.topdiv4:hover{
-  background: darkgray;
-  font-size: 20px;
+.topdivL:hover{
+  background:rgb(255, 0, 64);
 }
 .midBtw{
   text-align: center;
   color: dimgray;
 }
 .midleDivL{
-  margin-top: 4%;
-  background: silver;
+  margin-top: 2%;
   padding-bottom: 200px;
-  border-radius: 8px;
-  border: solid 1px gray;
-
+  text-align: center;
+  border-radius: 3px;
 }
 .midleDivR{
-  margin-top: 4%;
-  background: silver;
+  margin-top: 2%;
   padding-bottom: 200px;
-  border-radius: 8px;
-  border: solid 1px gray;
-
+  text-align: center;
+  border-radius: 3px;
+}
+.midlleL{
+  font-size: 24px;
+  width: 30%;
+  padding: 4px;
+  text-align: center;
+  display:inline-block;
+  color: white;
+  background:rgb(252, 36, 90);
+  border-radius: 4px;
+  transition:  ease-in-out 0.2s;
+  text-decoration: none;
+}
+.midlleL:hover{
+  background:rgb(255, 0, 64);
+  text-decoration: underline;
 }
 .middleDivtextL{
   margin-left: 10px;
@@ -156,13 +133,14 @@ body{
   margin-top: 10%;
   width: 100%;
   height: 80px;
-  background: darkgray;
-  display: flex;
-  bottom: 0; 
+  background:rgb(255, 31, 87);
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1; 
 }
 .enddivText{
   padding-top: 10px;
   font-size: 11px;
   text-align: left;
-  margin-left: 8px;
 }

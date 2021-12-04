@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color:rgb(209, 209, 211);
   animation: transitionIn 1s;
