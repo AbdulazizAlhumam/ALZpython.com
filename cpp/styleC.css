@@ -118,9 +118,11 @@ body{
 }
 .middleDivtextL{
   margin-left: 10px;
+  color: black;
 }
 .middleDivtextR{
   margin-right: 10px;
+  color: black;
 }
 .middleDivH1{
   color: gray;

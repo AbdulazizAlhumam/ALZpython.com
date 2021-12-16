@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+	#background1{
+		background: blue;
+		height: 500px;
+		width: 500px;
+		padding: 20px;
+	}
+    </style>
+</head>
+<body>
+    <div id="background1">
+    </div>
+    <button id="button">change the background</button>
+    <script>
+        let colors = ["blue", "yellow", "black", "white"]; 
+        let button = document.getElementById("button");
+        button.addEventListener("click", function(){
+            var randomcolor = colors[Math.floor(Math.random() * colors.length)]
+            let background = document.getElementById("background1")
+            background1.style.background = "randomcolor"
+        });
+        </script>
+        
+        <script>
+            function changeColor(){
+                let colors = ["blue", "yellow", "black", "white"];
+                var randomcolor = colors[Math.floor(Math.random() * colors.length)]
+                let background = document.getElementById("background1")
+                background1.style.background = randomcolor
+            }
+        </script>
+        <button id="button2" onclick="changeColor">click me</button>
+</body>
+</html>

@@ -29,6 +29,9 @@ body{
   right: 0;
   z-index: 2;
 }
+.tap{
+  margin-left: 400px;
+}
 .logo{
   height: 18px;
   width: 80px;
