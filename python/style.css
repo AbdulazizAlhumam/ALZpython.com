@@ -6,6 +6,7 @@ body{
   animation: transitionIn 1s;
   transition: ease-in-out 1s;
 }
+
 @keyframes transitionIn{
   from {
     opacity: 0;
@@ -19,7 +20,7 @@ body{
 }
 .topbar{
   width: 100%;
-  background: rgb(255, 0, 85);
+  border-bottom: solid 3px rgb(255, 0, 85);
   height: 25px;
   border-radius: 1px;
   position: fixed;
@@ -27,10 +28,23 @@ body{
   top: 0;
   left: 0;
   right: 0;
+  direction: ltr;
   z-index: 2;
 }
 .tap{
-  margin-left: 400px;
+  font: bold 18px tahoma;
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  padding: 4px 12px 4px 12px;
+  border-radius: 2px;
+  transition:  ease-in-out 0.2s;
+  position: flex;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.tap:hover{
+  color: rgb(255, 115, 115);
+  background:rgb(139, 63, 82);
 }
 .logo{
   height: 18px;
@@ -40,13 +54,14 @@ body{
 .topbarL{
   font: bold 18px tahoma;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(165, 165, 165);
   padding: 4px 12px 4px 12px;
-  border-radius: 5px;
+  border-radius: 2px;
   transition:  ease-in-out 0.2s;
 }
 .topbarL:hover{
   color: rgb(255, 115, 115);
+  background:rgb(139, 63, 82);
 }
 .topdiv{
   width: 100%;
